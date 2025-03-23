@@ -12,4 +12,3 @@ class Solution:
 obj_1=Solution()
 print(obj_1.mySqrt(4))
 print(obj_1.mySqrt(8))
-        
