@@ -31,31 +31,31 @@ for i in range(100):
 
 # #pentagon
 t = turtle.Turtle()
-# for _ in range(5):
-#     t.forward(100)
-#     t.left(72)  # 360/5
+for _ in range(5):
+    t.forward(100)
+    t.left(72)  # 360/5
 
-# for _ in range(4):
-#     t.forward(100)
-#     t.left(90)
+for _ in range(4):
+    t.forward(100)
+    t.left(90)
 
-# t.color("red")
-# t.speed(0)  # Fastest drawing
+t.color("red")
+t.speed(0)  # Fastest drawing
 
-# # # Draw one petal using two arcs
-# def draw_petal():
-#     for _ in range(2):
-#         t.circle(100, 60)  # Draw 60° arc with radius 100
-#         t.left(120)        # Turn to draw the other half
+# # Draw one petal using two arcs
+def draw_petal():
+    for _ in range(2):
+        t.circle(100, 60)  # Draw 60° arc with radius 100
+        t.left(120)        # Turn to draw the other half
 
-# # Draw full flower
-# for _ in range(6):
-#     draw_petal()
-#     t.right(60)  # Rotate for next petal
+# Draw full flower
+for _ in range(6):
+    draw_petal()
+    t.right(60)  # Rotate for next petal
 
-# t.hideturtle()
-# turtle.done()
+t.hideturtle()
+turtle.done()
 
-# for _ in range(30):
-#     t.forward(100)
-#     t.left(120)
+for _ in range(30):
+    t.forward(100)
+    t.left(120)
